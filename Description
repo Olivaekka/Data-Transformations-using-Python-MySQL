@@ -1,0 +1,20 @@
+# Video Game Sales Analysis (Python + MySQL)
+
+This repository contains a Python script that connects to a MySQL database and analyzes video game sales data from the year 2016.
+
+## What the Script Does
+
+Using Python as an interface to the MySQL server, this script answers the following questions:
+
+- Was the average of global sales higher **before or after 2005**?
+- Creates a **new column** in the SQL query that labels each record as:
+  - `'pre-2005'` if the game was released before 2005
+  - `'post-2005'` if the game was released in or after 2005
+
+All SQL logic is executed through Python using MySQL connector libraries.
+
+## Tools Used
+
+- Python (for scripting and database connection)
+- MySQL (for querying the data)
+- MySQL Connector / SQLAlchemy (for Python-MySQL interaction)
