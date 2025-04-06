@@ -1,9 +1,0 @@
-# 🎮 Video Game Sales Analysis: Pre-2005 vs Post-2005
-
-## Description
-This project performs a data analysis on global video game sales using a dataset from 2016. The focus is on comparing average global sales **before and after the year 2005**. The dataset is processed in Python and queried using MySQL to answer the following:
-
-- Was the average of global sales higher before or after 2005?
-- Label game records as 'Pre-2005' or 'Post-2005' using SQL logic in Python.
-- Visualize the comparison using Matplotlib bar charts.
-
